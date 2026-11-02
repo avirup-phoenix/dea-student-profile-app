@@ -1,0 +1,11 @@
+streamlit
+python-dotenv
+snowflake-connector-python
+cryptography
+pydantic>=2.0
+langsmith
+langchain-openai
+langchain-ollama
+pypdf
+python-docx
+requests
