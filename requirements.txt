@@ -9,3 +9,4 @@ langchain-ollama
 pypdf
 python-docx
 requests
+openpyxl==3.1.2
