@@ -2358,7 +2358,7 @@ def default_profile() -> dict[str, Any]:
             # "minimum_salary_rule": "PREFERENCE",
             "accepted_locations": [],
             # "location_rule": "HARD",
-            "work_modes": ["Remote"],
+            "work_modes": ["Remote", "Hybrid", "Onsite", "On-site"],
             # "work_mode_rule": "HARD",
             "employment_types": ["Permanent"],
             # "employment_type_rule": "HARD",
@@ -3377,7 +3377,7 @@ def render_profile_page() -> None:
 
         col1, col2 = st.columns([2, 1])
         with col1:
-            work_modes = ["Remote", "Hybrid", "Onsite"]
+            work_modes = ["Remote", "Hybrid", "Onsite", "On-site"]
             eligibility["work_modes"] = st.multiselect(
                 "Accepted work modes",
                 work_modes,
