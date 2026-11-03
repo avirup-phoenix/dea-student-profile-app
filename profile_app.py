@@ -393,7 +393,8 @@
 #             # "minimum_salary_rule": "PREFERENCE",
 #             "accepted_locations": [],
 #             # "location_rule": "HARD",
-#             "work_modes": ["Remote"],
+#             one more thing to change in code
+              "work_modes": ["Remote", "Hybrid", "Onsite", "On-site"],
 #             # "work_mode_rule": "HARD",
 #             "employment_types": ["Permanent"],
 #             # "employment_type_rule": "HARD",
